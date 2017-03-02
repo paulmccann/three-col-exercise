@@ -1,0 +1,42 @@
+/* =======GLOBAL STYLES====== */
+
+body {
+  font: 1.2em arial;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =======CONTENT STYLES====== */
+
+
+.container {
+  width: 960px;
+  margin: 10px auto;
+  border: 1px solid black;
+}
+
+header,
+footer {
+  padding: .75em;
+  background: black;
+  color: white;
+}
+
+/* =======NAV STYLES====== */
+
+nav ul {
+  padding: 10px 0 5px 20px;
+  list-style: none;
+}
+
+nav li {
+  padding-bottom: .7em;
+}
+
+nav a {
+  
+}

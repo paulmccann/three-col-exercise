@@ -5,27 +5,8 @@
   <title>3 column document</title>
   <link rel="stylesheet" href="css/styles.css">
   <style></style>
-
-<script>
-
-function getWidth() {
-
-  var window_width = window.outerWidth;
-  var specsbox = document.getElementById("specs");
-
-  specsbox.innerHTML = window_width;
-
-  console.log(window_width);
-}
-
-window.onload = getWidth;
-
-</script>
-
 </head>
-<body onresize="getWidth();">
-
-<div id="specs"></div>
+<body>
 
   <div class="container">
 
@@ -38,13 +19,26 @@ window.onload = getWidth;
 
       <article>
 
-        <h2>Need your employees leveraged, outsourced or impacted?</h2>
-        <img src="img/8161-small-400-304.jpg">
-        <p>Empower us to enable your deepest dreams of strategy fufillment. We also empower intuitive markets on the side.</p>
+        <h2>Contact Us</h2>
 
-        <p>Lorem ipsum, dolor sit amet. We're the industry leader of dynamic, back-end ROI metrics. We will augment our capability to seize without devaluing our capacity to orchestrate. In respect to specific goals, any associated supporting element presents extremely interesting challenges to the  greater fight-worthiness concept.</p>
+        <form action="">
 
-        <p>In this regard, initiation of critical subsystem development requires considerable systems analysis and trade-off studies to arrive at the  preliminary qualification limit.</p>
+        Name: <input type="text"><br>
+        Email: <input type="email"><br>
+
+        <br>
+
+        <input type="submit" value="Send my info">
+
+        </form>
+  <br>
+        <form oninput="level.value = levelinput.valueAsNumber">
+<h3>What's your interest level?</h3>
+          <input type="range" min="0" max="10" value="0" name="levelinput">
+          <output value="0" name="level">0</output>
+
+        </form>
+  <br>
       </article>
 
       <aside>
